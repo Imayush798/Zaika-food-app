@@ -87,7 +87,7 @@ header .logo i{
 header .navbar a{
     font-size: 2.7rem;
     border-radius: .5rem;
-    padding: .5rem .5rem;
+    padding: .5rem 1rem;
     color: var(--light-color);
 
 }
@@ -164,22 +164,20 @@ header .icons #bars{
     top: 2rem; right: 3rem;
     font-size: 5rem;
 }
-.home{
-    paddi
-}
 
 .home .home-slider .slide{
     display: flex;
     align-items: center;
     flex-wrap: wrap;
     gap: 2rem;
-    padding-top: 9rem;
+    padding-top: 10rem;
+    padding-bottom: 10rem;
 }
 .home .home-slider .slide .content{
-    flex:1 1 45rem;
+    flex:.5 1 35rem;
 }
 .home .home-slider .slide .image{
-    flex:1 1 45rem;
+    flex:1 1 35rem;
 }
 .home .home-slider .slide .image img{
     width: 100%;
